@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Muhit Temirtasov](https://up.htmlacademy.ru/htmlcss/32/user/1916031).
-* Наставник: `Неизвестно`.
+* Наставник: [`Роман Ясель`](https://htmlacademy.ru/profile/yasel)
 
 ---
 
