@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/rubik/rubik-800.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "raleway", "rubik";
+    font-size: 18px;
+    line-height: 20px;
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: #FFE17F;
+    background-position: absolute;
+    width: 1160px;
+    height: 300px;
+    left: 140px;
+    top: 40px;
+}
+.navigation-list {
+    font-family: "rubik", sans-serif;
+    font-size: 16px;
+    line-height: 18.96px;
+    font-weight: 400;
+    color: black;
+    
+}
+.page-header-under {
+    font-family: "rubik", sans-serif;
+    font-size: 18px;
+    line-height: 21.13px;
+    font-weight: 800;
+
+}
+.navigation-link {
+    font-family: "rubik";
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    .navigation-link-menu {
+        font-family: "raleway";
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+.slider-description-title {
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+}
+.slider-of-description {
+    font-family: "rubik";
+    font-size: 18px;
+    line-height: 30px;
+}
+.cifri {
+    font-family: "rubik";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 30px;
+}
+.opisanie {
+    font-family: "rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.description-link {
+    color: black;
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFE17F;
+}
+.categories-link {
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.delivery-item {
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.delivery-item-tekst {
+    font-family: "rubik";
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.rare-item-title {
+    font-size: 20px;
+    line-height: 23.48px;
+    font-weight: 800;
+}
+.rare-item {
+    background-color: #f0f0f0
+}
+.about-title {
+    font-family: "raleway";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.about-info {
+    font-family: "rubik";
+
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.delivery-company {
+    font-family: "rubik";
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.contacts-title {
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 50px;
+
+    line-height: 50px;
+}
+.contacts-info {
+    font-family: "rubik";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.contacts-subtitle {
+    font-family: "rubik";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.contacts-address-text {
+    font-family: "rubik";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.contacts-phone {
+    font-family: "rubik";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contacts-time {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.contacts-shedule {
+    font-family: "rubik";
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.contacts-link {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.delivery-link {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.subscribe-title {
+    font-family: "raleway";
+    line-height: 50px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.subscribe-info {
+    font-family: "rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button {
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.13px;
+}
+.page-footer {
+    background-color: #444444;
+    color: white;
+}
+.footer-menu-item-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.13px;
+}
+.footer-social-item-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.button-triple-item {
+    font-family: "raleway";
+    font-weight: 800;
+}
+.about-text-link {
+    color: #FFE17F;
+    font-family: "rubik";
+    text-decoration: none;
+    text-transform: uppercase;
+}
