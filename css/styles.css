@@ -28,13 +28,13 @@
 }
 
 body {
-    font-family: "raleway", "rubik";
+    font-family: "raleway", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
     background-color: white;
     color: black;
 }
-header {
+.page-header {
     background-color: #FFE17F;
     background-position: absolute;
     width: 1160px;
@@ -43,7 +43,7 @@ header {
     top: 40px;
 }
 .navigation-list {
-    font-family: "rubik", sans-serif;
+    font-family: "rubik", Arial, sans-serif;
     font-size: 16px;
     line-height: 18.96px;
     font-weight: 400;
@@ -51,51 +51,53 @@ header {
     
 }
 .page-header-under {
-    font-family: "rubik", sans-serif;
+    font-family: "rubik", Arial, sans-serif;
     font-size: 18px;
     line-height: 21.13px;
     font-weight: 800;
 
 }
 .navigation-link {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
 }
     .navigation-link-menu {
-        font-family: "raleway";
+        font-family: "raleway", Arial, sans-serif;
         color: black;
         text-decoration: none;
         text-transform: uppercase;
 }
 .slider-description-title {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
 }
 .slider-of-description {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-size: 18px;
     line-height: 30px;
+    color: #444444;;
 }
 .cifri {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
     line-height: 30px;
 }
 .opisanie {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+    color: #444444;
 }
 .description-link {
     color: black;
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21.13px;
@@ -104,7 +106,7 @@ header {
     background-color: #FFE17F;
 }
 .categories-link {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
@@ -113,20 +115,22 @@ header {
     text-decoration: none;
 }
 .delivery-item {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 50px;
     font-weight: 800;
     line-height: 50px;
 }
 .delivery-item-tekst {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    color: #444444;
 }
 .rare-item-title {
+    font-family: "raleway", Arial, sans-serif;
     font-size: 20px;
     line-height: 23.48px;
     font-weight: 800;
@@ -135,7 +139,7 @@ header {
     background-color: #f0f0f0
 }
 .about-title {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 50px;
@@ -143,68 +147,80 @@ header {
     line-height: 50px;
 }
 .about-info {
-    font-family: "rubik";
-
+    font-family: "rubik", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
+    color: #444444;
 }
 .delivery-company {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
 }
 .contacts-title {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 50px;
-
     line-height: 50px;
 }
 .contacts-info {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-
+    color: #444444;
 }
 .contacts-subtitle {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
 }
 .contacts-address-text {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
+    color: #444444;
 }
 .contacts-phone {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
-    color: black;
+    color: #444444;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contacts-phone-footer {
+    font-family: "rubik", Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
 }
 .contacts-time {
+    font-family: "rubik", Arial, sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
 }
 .contacts-shedule {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
 }
 .contacts-link {
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21.13px;
@@ -213,6 +229,7 @@ header {
     text-transform: uppercase;
 }
 .delivery-link {
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21.13px;
@@ -221,19 +238,19 @@ header {
     text-transform: uppercase;
 }
 .subscribe-title {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     line-height: 50px;
     font-size: 50px;
     font-weight: 800;
 }
 .subscribe-info {
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
 .button {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21.13px;
@@ -243,6 +260,7 @@ header {
     color: white;
 }
 .footer-menu-item-link {
+    font-family: "raleway", Arial, sans-serif;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -257,12 +275,112 @@ header {
 
 }
 .button-triple-item {
-    font-family: "raleway";
+    font-family: "raleway", Arial, sans-serif;
     font-weight: 800;
 }
 .about-text-link {
     color: #FFE17F;
-    font-family: "rubik";
+    font-family: "rubik", Arial, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+}
+.inner-header-title {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: 800;
+}
+.breadcrumbs-link {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.filter-title {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: 800;
+    background-color: #dcdcdc;
+    background-position: absolute;
+    width: 468px;
+    height: 70px;
+    top: 405px;
+    left: 0px;
+    font-size: 16px;
+}
+.catalog-filter-title {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.catalog-filter-label {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17,78px;
+}
+.catalog-filter-item {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.catalog-filter {
+    background-color: #ebebeb;
+}
+.sorting-type-title {
+    font-family: "raleway", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+.sorting-type {
+    background-color: #ebebeb;
+}
+.product-card-title {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.product-card-price {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.product-card-button {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffc700;
+}
+.pagination-show-more {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21.13px;
+    color: black;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.pagination-link {
+    font-family: "rubik", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.pagination-prev {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+.pagination-next {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+.prev-next-123 {
+    background-color: #ebebeb;
 }
